@@ -20,7 +20,6 @@ class MyComponent extends React.Component {
                     <input value={this.state.name} type="text"
                         onChange={(eventt) => this.handleOnChangeName(eventt)} />
                 </h1>
-                <h1>thúyr</h1>
                 My name is {this.state.name}
             </React.Fragment>
         )
